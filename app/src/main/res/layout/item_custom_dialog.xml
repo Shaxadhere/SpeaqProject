@@ -75,13 +75,12 @@
                 android:id="@id/dialogLastMessage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
                 android:layout_toEndOf="@id/dialogLastMessageUserAvatar"
                 android:layout_toRightOf="@id/dialogLastMessageUserAvatar"
                 android:ellipsize="end"
-                android:text="do u have mac?"
                 android:gravity="top"
-                android:maxLines="1"/>
+                android:maxLines="1"
+                android:text="do u have mac?" />
 
         </RelativeLayout>
 
