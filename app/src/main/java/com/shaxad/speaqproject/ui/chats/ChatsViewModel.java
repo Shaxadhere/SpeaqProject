@@ -1,16 +1,16 @@
-package com.shaxad.speaqproject.ui.dashboard;
+package com.shaxad.speaqproject.ui.chats;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DashboardViewModel extends ViewModel {
+public class ChatsViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public DashboardViewModel() {
+    public ChatsViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+        mText.setValue("This is chats fragment");
     }
 
     public LiveData<String> getText() {
