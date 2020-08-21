@@ -15,7 +15,7 @@
             android:id="@id/dialogAvatar"
             android:layout_width="@dimen/dialog_avatar_width"
             android:layout_height="@dimen/dialog_avatar_height"
-            android:src="@drawable/IMG_2313"
+            android:src="@drawable/avatar"
             android:layout_margin="16dp"
             app:civ_border_width="2dp"
             app:civ_border_color="#FF000000"/>
@@ -67,7 +67,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_marginEnd="7dp"
-                android:src="@drawable/IMG_2313"
+                android:src="@drawable/avatar"
                 android:layout_marginRight="7dp"/>
 
 

@@ -14,7 +14,7 @@
             android:id="@id/dialogAvatar"
             android:layout_width="@dimen/dialog_avatar_width"
             android:layout_height="@dimen/dialog_avatar_height"
-            android:src="@drawable/IMG_2313"
+            android:src="@drawable/avatar"
             android:layout_margin="16dp"/>
 
         <TextView
@@ -61,7 +61,7 @@
 
             <com.stfalcon.chatkit.utils.ShapeImageView
                 android:id="@id/dialogLastMessageUserAvatar"
-                android:src="@drawable/IMG_2313"
+                android:src="@drawable/avatar"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_marginEnd="7dp"
