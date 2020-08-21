@@ -1,19 +1,55 @@
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white">
+    android:background="@color/white"
+    android:orientation="vertical">
 
-    <com.stfalcon.chatkit.dialogs.DialogsList
-        android:id="@+id/dialogsList"
+    <LinearLayout
+        android:id="@+id/action_bar"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:dialogDividerLeftPadding="0dp"
-        app:dialogMessageTextSize="17sp"
-        app:dialogTitleTextStyle="bold"
-        app:dialogUnreadBubbleBackgroundColor="@color/red"
-        app:dialogUnreadItemBackground="@color/gray_transparent"
-        app:dialogUnreadTitleTextStyle="bold"/>
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
 
-</RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chats"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="10dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 Request"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:textSize="12dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/colorPrimary"/>
+
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:backgroundTint="@color/gray_light"
+        android:padding="5dip"
+        android:hint="Search"
+        android:inputType="textFilter"
+        android:background="@drawable/rounded_edit_text" />
+
+    <ListView
+        android:id="@+id/chats_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"/>
+
+</LinearLayout>
