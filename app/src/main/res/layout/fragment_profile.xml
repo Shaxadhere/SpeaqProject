@@ -23,5 +23,27 @@
 
 
     </LinearLayout>
+<LinearLayout
+android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="282dp">
+
+        <ImageView
+            android:id="@+id/messageUserAvatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/avatar" />
+
+        <ImageView
+            android:id="@+id/onlineIndicator"
+            android:layout_width="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-41dp"
+            android:elevation="5dp"
+            android:foregroundGravity="bottom"
+            android:layout_height="40dp"
+            android:background="@drawable/ic_edit" />
+
+    </LinearLayout>
 </LinearLayout>
 
